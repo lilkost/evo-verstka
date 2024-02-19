@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Эвакуатор</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=d5539ab7-8e91-4a20-877a-97a81d73a383&lang=ru_RU"></script>
+    <script src="index.js" defer></script>
+    
+</head>
+<body>
+    <header class="header">
+        <button class="header-theme">
+            <span class="material-symbols-outlined">
+                routine
+            </span>
+        </button>
+        <button class="burger">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+        </button>
+
+        <div class="menu">
+            <ul class="contact__list">
+                <li class="contact__item">
+                    <p>Номер телефона</p>
+                    <a href="tel:89290499996">
+                        <span class="material-symbols-outlined">
+                            call
+                        </span>
+                        8929-049-99-96
+                    </a>
+                </li>
+                <li class="contact__item">
+                    <p>Номер телефона</p>
+                    <a href="tel:89625139333">
+                        <span class="material-symbols-outlined">
+                            call
+                        </span>
+                        8962-513-93-33
+                    </a>
+                </li>
+                <li class="contact__item">
+                    <p>Email</p>
+                    <a href="mailto:Sibas1986@mail.ru">
+                        <span class="material-symbols-outlined">
+                            mail
+                        </span>
+                        Sibas1986@mail.ru
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <section class="top container">
+            <h1 class="top__title">
+                Услуги эвакуатор в Нижнем-Новгороде<br> и в Нижегородской области
+            </h1>
+            <p class="top__sub-title">
+                Подача эвакуатора от 15 минут
+            </p>
+            <a class="top__phone" href="tel:89290499996">
+                <span class="material-symbols-outlined">
+                    call
+                </span>
+                Вызвать эвакуатор
+            </a>
+            <a class="top__anchor-link" href="#anchor">
+                <span class="material-symbols-outlined">
+                    stat_minus_3
+                </span>
+            </a>
+        </section>
+        <section class="advantages container" id="anchor">
+            <h2 class="title advantages__title">
+                Наши преимущества
+            </h2>
+            <div class="advantages__content">
+                <ul class="advantages__list">
+                    <li class="advantages__item">
+                        <span class="material-symbols-outlined">
+                            map
+                        </span>
+                        Выезд по всей Нижегородской области
+                    </li>
+                    <li class="advantages__item">
+                        <span class="material-symbols-outlined">
+                            directions_car
+                        </span>
+                        Квалифицированные водители
+                    </li>
+                    <li class="advantages__item">
+                        <span class="material-symbols-outlined">
+                            payments
+                        </span>
+                        Любые способы оплаты
+                    </li>
+                </ul>
+                <picture>
+                    <img src="./img/evo.png" alt="">
+                </picture>
+            </div>
+        </section>
+        <section class="price container">
+            <h2 class="title price__title">
+                Цены на услуги
+            </h2>
+            <ul class="price__list">
+                <li class="price__item">Легковые автомобили от 3500р.</li>
+                <li class="price__item">Паркетники от 4000р.</li>
+                <li class="price__item">Джипы и микроавтобусы от 4500р. (цены по городу)</li>
+                <li class="price__item">Трактора и любая другая спец техника цена договорная и любые перевозки за город цена договорная обсуждается</li>
+            </ul>
+            <a class="top__phone price__phone" href="tel:89290499996">
+                <span class="material-symbols-outlined">
+                    call
+                </span>
+                Вызвать эвакуатор
+            </a>
+        </section>
+        <section class="photos container">
+            <h2 class="title photos__title">
+                Фото-галерея
+            </h2>
+            <ul class="photos__list">
+                <li class="photos__item">
+                    <pictue>
+                        <a href="./img/photos/1.jpg" data-fancybox="gallery">
+                            <img src="./img/photos/1.jpg" alt="">
+                        </a>
+                    </pictue>
+                </li>
+                <li class="photos__item" >
+                    <pictue>
+                        <a href="./img/photos/2.jpg">
+                            <img src="./img/photos/2.jpg" alt="">
+                        </a>
+                    </pictue>
+                </li>
+                <li class="photos__item">
+                    <pictue>
+                        <a href="./img/photos/3.jpg" data-fancybox="gallery">
+                            <img src="./img/photos/3.jpg" alt="">
+                        </a>
+                    </pictue>
+                </li>
+                <li class="photos__item">
+                    <pictue>
+                        <a href="./img/photos/4.jpg" data-fancybox="gallery">
+                            <img src="./img/photos/4.jpg" alt="">
+                        </a>
+                    </pictue>
+                </li>
+                <li class="photos__item">
+                    <pictue>
+                        <a href="./img/photos/5.jpg" data-fancybox="gallery">
+                            <img src="./img/photos/5.jpg" alt="">
+                        </a>
+                    </pictue>
+                </li>
+                <li class="photos__item">
+                    <pictue>
+                        <a href="./img/photos/6.jpg" data-fancybox="gallery">
+                            <img src="./img/photos/6.jpg" alt="">
+                        </a>
+                    </pictue>
+                </li>
+                <li class="photos__item">
+                    <pictue>
+                        <a href="./img/photos/7.jpg" data-fancybox="gallery">
+                            <img src="./img/photos/7.jpg" alt="">
+                        </a>
+                    </pictue>
+                </li>
+                <li class="photos__item">
+                    <pictue>
+                        <a href="./img/photos/8.jpg" data-fancybox="gallery">
+                            <img src="./img/photos/8.jpg" alt="">
+                        </a>
+                    </pictue>
+                </li>
+                <li class="photos__item">
+                    <pictue>
+                        <a href="./img/photos/9.jpg" data-fancyboxdata-fancybox="gallery">
+                            <img src="./img/photos/9.jpg" alt="">
+                        </a>
+                    </pictue>
+                </li>
+            </ul>
+        </section>
+        <section class="contact container">
+            <h2 class="title contact__title">
+                Контакты
+            </h2>
+            <div class="contact__inner">
+                <div id="map" class="map"></div>
+                <div class="contact__info">
+                    <ul class="contact__list">
+                        <li class="contact__item">
+                            <p>Номер телефона</p>
+                            <a href="tel:89290499996">
+                                <span class="material-symbols-outlined">
+                                    call
+                                </span>
+                                8929-049-99-96
+                            </a>
+                        </li>
+                        <li class="contact__item">
+                            <p>Номер телефона</p>
+                            <a href="tel:89625139333">
+                                <span class="material-symbols-outlined">
+                                    call
+                                </span>
+                                8962-513-93-33
+                            </a>
+                        </li>
+                        <li class="contact__item">
+                            <p>Email</p>
+                            <a href="mailto:Sibas1986@mail.ru">
+                                <span class="material-symbols-outlined">
+                                    mail
+                                </span>
+                                Sibas1986@mail.ru
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p id="year"></p>
+    </footer>
+</body>
+</html>
